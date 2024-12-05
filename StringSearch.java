@@ -10,6 +10,7 @@ public class StringSearch {
      * Main method that reads user input and calls search method.
      */
     public static void main(String[] args) {
+        System.out.println("Enter: search <pattern> <filename>");
         String input = scan.nextLine();
         String[] inputArray = input.split(" "); 
 
